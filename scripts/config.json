@@ -1,0 +1,28 @@
+{
+    "diskspace": {
+        "enabled": true,
+        "disks": [
+            {
+                "mountpoint": "/",
+                "type": "SSD",
+                "raid": "Non-RAID"
+            },
+            {
+                "mountpoint": "/data",
+                "type": "HDD",
+                "raid": "RAID1"
+            }
+        ]
+    },
+    "hddtemp": {
+        "enabled": false,
+        "disks": [
+            "/dev/sda",
+            "/dev/sdb",
+            "/dev/sdc"
+        ]
+    },
+    "mdstat": {
+        "enabled": true
+    }
+}
